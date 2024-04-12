@@ -1,0 +1,28 @@
+
+
+.container{
+    background-color: #ffff;
+    padding: 25px;
+    width: 65vw;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.form{
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .form {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
